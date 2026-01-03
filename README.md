@@ -27,7 +27,8 @@ O projeto segue uma estrutura modular, separando a responsabilidade de cada etap
 Você pode rodar os scripts individualmente para testes:
 ```bash
 python pipeline/bronze.py
-
+```
 Ou rodar a pipeline de uma vez:
 ```bash
 python main.py
+```
