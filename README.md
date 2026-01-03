@@ -24,12 +24,10 @@ O projeto segue uma estrutura modular, separando a responsabilidade de cada etap
 
 ## Como Rodar
 
-1. Certifique-se de ter o DuckDB instalado:
-   ```bash
-   pip install duckdb
+Você pode rodar os scripts individualmente para testes:
+```bash
+python pipeline/bronze.py
 
-2. Execute a pipeline na ordem lógica:
-    ```bash
-    python pipeline/bronze.py
-    python pipeline/silver.py
-    python pipeline/gold.py
+Ou rodar a pipeline de uma vez:
+```bash
+python main.py
