@@ -18,7 +18,7 @@ O projeto segue uma estrutura modular, separando a responsabilidade de cada etap
 
 ## Tecnologias Utilizadas
 
-- **Python 3.x**
+- **Python 3.12**
 - **DuckDB**: Motor de processamento SQL in-process.
 - **Pandas**: Utilizado apenas para visualização dos resultados no terminal.
 
