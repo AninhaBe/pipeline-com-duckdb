@@ -13,5 +13,5 @@ with duckdb.connect("projeto_eng.db") as con:
 """)
     print(con.execute('SELECT * FROM silver_vendas').df())
 
-print("Tabela Silver criada com sucesso a partir da Bronze!")
+print("tabela Silver criada com sucesso a partir da bronze!")
 

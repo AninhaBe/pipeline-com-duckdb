@@ -11,5 +11,5 @@ with duckdb.connect("projeto_eng.db") as con:
             group by produto
             order by faturamento_total DESC
 """)
-    print('Tabela Gold gerada com sucesso!')
+    print('tabela Gold gerada com sucesso!')
     print(con.execute('SELECT * FROM gold_vendas_por_produto').df())
