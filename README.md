@@ -29,6 +29,7 @@ O projeto segue uma estrutura modular, separando a responsabilidade de cada etap
    pip install duckdb
 
 2. Execute a pipeline na ordem lógica:
-    ```python pipeline/bronze.py```
-    ```python pipeline/silver.py```
-    ```python pipeline/gold.py```
+    ```bash
+    python pipeline/bronze.py
+    python pipeline/silver.py
+    python pipeline/gold.py
