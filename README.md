@@ -1,6 +1,6 @@
 # Pipeline de Vendas com DuckDB 🦆
 
-Este projeto implementa uma pipeline de dados simples utilizando a arquitetura de medalhão (Bronze, Silver e Gold) para processar dados de vendas de forma local, eficiente e persistente. A intenção é fixar o conhecimento em relação a usabilidade do DuckDB.
+Este projeto implementa uma pipeline de dados simples utilizando a arquitetura medalhão (Bronze, Silver e Gold) para processar dados de vendas de forma local, eficiente e persistente. A intenção é fixar o conhecimento em relação a usabilidade do DuckDB.
 
 ## Arquitetura do Projeto
 
