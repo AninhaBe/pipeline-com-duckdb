@@ -30,5 +30,5 @@ python pipeline/bronze.py
 ```
 Ou rodar a pipeline de uma vez:
 ```bash
-python main.py
+python scripts/main.py
 ```
